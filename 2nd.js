@@ -40,7 +40,7 @@ setInterval(() => {
           .map(str => +str)
       )
       .flat();
-  monthLeft.textContent = `${month} месяцев `;
+  monthsLeft.textContent= `${months} месяцев `;
   daysLeft.textContent = `${days - 1} дней `;
   HoursLeft.textContent = `${hours} час`;
   MinsLeft.textContent = `${minutes} минут`;
